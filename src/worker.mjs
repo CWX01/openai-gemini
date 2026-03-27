@@ -64,8 +64,8 @@ const handleOPTIONS = async () => {
   });
 };
 
-const BASE_URL = "https://generativelanguage.googleapis.com";
-const API_VERSION = "v1beta";
+const BASE_URL = "https://aiplatform.googleapis.com";
+const API_VERSION = "v1";
 
 // https://github.com/googleapis/js-genai/blob/main/src/_api_client.ts#L21
 const API_CLIENT = "google-genai-sdk/1.34.0"; // npm view @google/genai version
